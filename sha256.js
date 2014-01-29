@@ -154,3 +154,4 @@ function hex_sha2(s){return binb2hex(core_sha256(str2binb(s),s.length * chrsz));
 function b64_sha2(s){return binb2b64(core_sha256(str2binb(s),s.length * chrsz));}
 function str_sha2(s){return binb2str(core_sha256(str2binb(s),s.length * chrsz));}
 
+module.exports = hex_sha2
