@@ -1,7 +1,7 @@
 {
   "name": "cryptomx",
   "description": "sha256 and ripemd160 from cryptomx project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/cryptomx",
   "repository": {
     "type": "git",
