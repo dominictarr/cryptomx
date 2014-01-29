@@ -1,0 +1,15 @@
+{
+  "name": "cryptomx",
+  "description": "sha256 and ripemd160 from cryptomx project",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/cryptomx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/cryptomx.git"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Derek Buitenhuis",
+  "license": "MIT"
+}
